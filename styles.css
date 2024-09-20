@@ -5,6 +5,13 @@ body {
     margin: auto;
 }
 
+main {
+    float: left;
+}
+
+aside {
+    float: left;
+}
 header {
     margin: 35px 0;
     font-size: 20px;
