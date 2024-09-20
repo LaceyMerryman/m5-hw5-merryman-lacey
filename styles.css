@@ -7,8 +7,13 @@ body {
 
 main {
     float: left;
+    display: block;
     max-width: 500px;
-    padding: 50px;
+}
+
+section.AboutMe {
+    margin: auto;
+    max-width: 400px;
 }
 
 header {
@@ -20,6 +25,7 @@ h1, nav {
     background-color: white;
     color: darkslategray;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
 }
 
 nav {
@@ -32,6 +38,7 @@ div {
     padding: 50px 0;
     font-size: 15px;
     float: right;
+    display: block;
 }
 
 footer {
