@@ -1,31 +1,28 @@
 body {
     background-image: url("spikes.png");
     font-family: 'Courier New', Courier, monospace;
-    max-width: 900px;
-    margin: auto;
+    max-width: 800px;
+    margin: 24 px auto;
 }
 
 img {
     float: left;
 }
 
-main, section.aboutme, section.content {
+header > nav {
+    float: right
+    word-spacing: 10px;
+}
+
+
+main > div {
+    float: left;
     background-color: aliceblue;
     display: block;
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
     color: black;
     font-family: 'Courier New', Courier, monospace
-}
-
-section.content {
-    max-width:fit-content;
-    margin: auto;
-}
-
-section.AboutMe {
-    margin: auto;
-    max-width: 700px;
 }
 
 header {
@@ -40,12 +37,7 @@ h1, nav {
     display: block;
 }
 
-nav {
-    text-align: right;
-    word-spacing: 10px;
-}
-
-aside {
+aside > div {
     background-color: aliceblue;
     color: black;
     max-width: 400px;
