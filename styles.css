@@ -2,8 +2,7 @@ body {
     background-image: url("spikes.png");
     font-family: 'Courier New', Courier, monospace;
     max-width: 900px;
-    display: inline-block;
-    width: 900px;
+    display: block;
     margin: 24 px auto;
 }
 
@@ -29,6 +28,7 @@ main > div {
 }
 
 header {
+    text-align:
     margin: 35px 0;
     font-size: 20px;
 }
