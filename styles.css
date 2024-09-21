@@ -47,6 +47,13 @@ aside > div {
     display: block;
 }
 
+/* clearfix */
+main:: after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 footer {
     text-align: center;
     margin: auto;
