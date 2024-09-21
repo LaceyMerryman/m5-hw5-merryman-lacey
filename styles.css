@@ -1,13 +1,13 @@
 body {
     background-image: url("spikes.png");
     font-family: 'Courier New', Courier, monospace;
-    max-width: 800px;
-    display: block;
+    max-width: 900px;
     margin: 24 px auto;
 }
 
 img {
     float: left;
+    padding: 15px;
 }
 
 header > nav {
