@@ -2,6 +2,8 @@ body {
     background-image: url("spikes.png");
     font-family: 'Courier New', Courier, monospace;
     max-width: 900px;
+    display: inline-block;
+    width: 900px;
     margin: 24 px auto;
 }
 
