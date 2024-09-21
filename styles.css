@@ -19,7 +19,7 @@ main, section.aboutme, section.content {
 }
 
 header {
-    margin: 35px 0;
+    margin: 35px 0 0;
     font-size: 20px;
 }
 
@@ -43,6 +43,12 @@ aside {
     padding: 50px 0;
     font-size: 15px;
     float: right;
+    display: block;
+}
+
+aside::after {
+    content: "footer";
+    clear: both;
     display: block;
 }
 
