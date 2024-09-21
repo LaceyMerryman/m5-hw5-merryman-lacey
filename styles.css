@@ -5,21 +5,17 @@ body {
     margin: auto;
 }
 
-main {
+img {
     float: left;
+}
+
+main, section.aboutme, section.content {
+    background-color: aliceblue;
     display: block;
-    max-width: 400px;
-    margin: auto;
-}
-
-section.content {
-    max-width:fit-content;
-    margin: auto;
-}
-
-section.AboutMe {
-    margin: auto;
     max-width: 500px;
+    margin: auto;
+    color: black;
+    font-family: 'Courier New', Courier, monospace
 }
 
 header {
@@ -37,10 +33,13 @@ h1, nav {
 nav {
     text-align: right;
     word-spacing: 10px;
+    font-size: 20px;
 }
 
-div {
-    max-width: 200px;
+aside {
+    background-color: aliceblue;
+    color: black;
+    max-width: 400px;
     padding: 50px 0;
     font-size: 15px;
     float: right;
