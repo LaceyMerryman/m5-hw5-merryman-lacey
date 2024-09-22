@@ -1,7 +1,6 @@
 body {
     background-image: url("spikes.png");
     font-family: 'Courier New', Courier, monospace;
-    justify-content: center;
     max-width: 900px;
     display: flex;
     margin: 24 px auto;
@@ -18,8 +17,9 @@ header > nav {
 }
 
 header {
-    text-align:
-    margin: 35px 0;
+    text-align: left;
+    margin: 35px 10px 10px 35px;
+    padding: 20px 20px 20px 20px;
     font-size: 20px;
 }
 
