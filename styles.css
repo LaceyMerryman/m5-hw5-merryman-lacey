@@ -30,24 +30,16 @@ h1, nav {
     display: block;
 }
 
-
-
 /* clearfix */
-aside:: after {
+main:: after {
     content: "";
     clear: both;
+    text-align: center;
     display: block;
 }
 
-.container {
-    flex: 1;  
-    display: flex;
-    flex-direction: column;
-}
-
-.content {
-    float: left;
-    flex: 1;                
+main {
+    float: left;            
     padding: 20px;
     border: 20px;
     background-color: aliceblue;
@@ -58,9 +50,8 @@ aside:: after {
     font-family: 'Courier New', Courier, monospace
 }
 
-.aside {
+aside {
     float: right;
-    flex: 1;
     padding: 20px;
     border: 20px;
     background-color: aliceblue;
@@ -71,7 +62,7 @@ aside:: after {
     display: block;
 }
 
-.footer {
+footer {
     background-color: whitesmoke;
     text-align: center;
     padding: 10px;
