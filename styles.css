@@ -23,6 +23,7 @@ main > div {
     background-color: aliceblue;
     display: block;
     max-width: 500px;
+    padding: 30px;
     margin: auto;
     color: black;
     font-family: 'Courier New', Courier, monospace
